@@ -19,8 +19,8 @@ while (keepLooping === true) {
   keepLooping = Math.random() < 0.1;
   i++;
 }
-//Looping over arrays
 
+//Looping over arrays
 const favouriteFoods = [
   "Pho",
   "Fried Chicken Burger",
@@ -54,3 +54,20 @@ favouriteFoods.forEach(function (food, index) {
 });
 
 //Loop Workshop
+const favouriteAnimals = [
+  "Red Panda",
+  "Cats",
+  "Wales",
+  "Dogs",
+  "Chipmunk",
+  "Deers",
+  "Mustang",
+];
+for (let i = 0; i < favouriteAnimals.length; i++) {
+  console.log(favouriteAnimals[i]);
+}
+
+const favouriteColour = ["Pink", "Red", "Black", "Green", "Yellow"];
+for (let colour of favouriteColour) {
+  console.log(colour);
+}
